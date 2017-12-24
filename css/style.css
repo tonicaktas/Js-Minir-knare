@@ -1,0 +1,117 @@
+
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:100);
+/*----------------------------
+         BODY
+---------------------------- */
+
+body {
+    background: #FFFFFF;
+
+    font-size: 22px;
+    font-family: "Roboto", sans-serif;
+}
+html {
+    height: 100%;
+}
+/*------------------------
+      HEADER
+-------------------------- */
+
+.header {
+    text-align: center;
+    background-color: #000;
+    padding: 20px 0 20px;
+    text-align: center;
+    color: #fff;
+    border-bottom: 15px solid #ff6100;
+}
+h1 {
+    font-size: 60px;
+}
+/* ------------------------
+   RÄKNAREN
+ -------------------------- */
+
+#calculator {
+    width: 30%;
+    height: auto;
+    margin-top: 30px;
+    padding: 10px;
+
+    background-color: #000;
+    padding-top: 30px;
+}
+/* ------------------------
+   DISPLAY
+ -------------------------- */
+
+.display {
+    border: #FFFFFF solid 2px;
+    width: 80%;
+    height: 60px;
+    padding-top: 5px;
+    text-align: center;
+    float: none;
+    margin: 0 auto;
+    color:#FFF;
+}
+#clear {
+    border-radius: 0;
+    background-color: #F7C86E;
+    height: 50px;
+    float: right;
+    margin-right: 20px;
+}
+#backspace {
+    border-radius: 0;
+    background-color: #F7C86E;
+    height: 50px;
+    float: right;
+    margin-right: 80px;
+}
+.clearBackspace {
+    margin-top: 40px;
+    width: 100%;
+}
+/* ------------------------
+   NUMMER
+ -------------------------- */
+
+#numbers-row {
+    text-align: center;
+    margin-top: 30px;
+}
+/* ------------------------
+    BUTTON
+ -------------------------- */
+
+button {
+    margin: 8px;
+
+    width: 80px;
+    height: 80px;
+    border: none;
+    background-color: #CCC;
+    transition: .3s;
+}
+button:hover {
+    background-color: #000;
+    color: #FFFFFF;
+    box-shadow: 0px 0px 10px #fff;
+}
+.opp {
+    background-color: #ff6100;
+}
+.decimal:hover {
+    background-color: #FFFFFF;
+    color: #888888;
+}
+.operator:hover {
+    background-color: #FFFFFF;
+    color: #888888;
+}
+.eval:hover {
+    background-color: #FFFFFF;
+    color: #888888;
+}
